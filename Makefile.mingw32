@@ -1,6 +1,6 @@
 
  #CC = i686-w64-mingw32.static-gcc -Wall
- LIB = -lwsock32 -lpthread
+ LIB = -lwsock32 -lpthread -lws2_32
 
  ifeq "x$(PREFIX)" "x"
   PREFIX = $(PS2DEV)
